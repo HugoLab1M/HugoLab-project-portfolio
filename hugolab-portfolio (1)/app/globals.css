@@ -15,7 +15,7 @@ body {
 
 body {
   font-feature-settings: "rlig" 1, "calt" 1;
-  @apply font-body text-ink bg-shell;
+  @apply font-body text-ink bg-sun-cream;
 }
 
 .gradient-blur {
