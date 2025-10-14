@@ -1,8 +1,4 @@
-'use client';
-import dynamic from "next/dynamic";
-import "./globals.css";
-
-const MaquetteLaSeiche = dynamic(() => import("./MaquetteLaSeiche"), { ssr: false });
+import MaquetteLaSeiche from "./MaquetteLaSeiche";
 
 export default function Page() {
   return <MaquetteLaSeiche />;
