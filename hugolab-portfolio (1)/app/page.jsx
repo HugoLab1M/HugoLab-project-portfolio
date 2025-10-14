@@ -2,9 +2,8 @@
 import dynamic from "next/dynamic";
 import "./globals.css";
 
-// Dynamically import to ensure 'use client' component renders properly
-const Portfolio = dynamic(() => import("./Portfolio"), { ssr: false });
+const MaquetteLaSeiche = dynamic(() => import("./MaquetteLaSeiche"), { ssr: false });
 
 export default function Page() {
-  return <Portfolio />;
+  return <MaquetteLaSeiche />;
 }
