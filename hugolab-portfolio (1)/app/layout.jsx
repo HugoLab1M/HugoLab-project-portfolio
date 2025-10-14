@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Rocket's — Foodtruck & Traiteur à Lyon",
   description:
@@ -13,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className="min-h-screen">{children}</body>
+      <body className="min-h-screen bg-shell font-body text-ink">{children}</body>
     </html>
   );
 }
