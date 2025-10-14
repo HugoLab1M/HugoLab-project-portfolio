@@ -1,8 +1,13 @@
 export const metadata = {
-  title: "HügoLab — Portfolio",
-  description: "Modern websites that convert. HügoLab builds fast, clean sites for local businesses and growing brands.",
-  metadataBase: new URL("https://hugolab.example"), // update after deployment
-  openGraph: { title: "HügoLab — Portfolio", description: "Modern websites that convert" }
+  title: "Rocket's — Foodtruck & Traiteur à Lyon",
+  description:
+    "Maquette La Seiche : découvrez l'univers Rocket's, foodtruck et traiteur responsables pour vos événements professionnels et privés.",
+  metadataBase: new URL("https://rocketsfoodtruck.example"),
+  openGraph: {
+    title: "Rocket's — Foodtruck & Traiteur à Lyon",
+    description:
+      "Un voyage gustatif du foodtruck au traiteur. Demandez votre devis personnalisé pour un événement mémorable.",
+  },
 };
 
 export default function RootLayout({ children }) {
